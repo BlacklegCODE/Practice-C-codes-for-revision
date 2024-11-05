@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+const double PI = 3.14159;
+double RADIUS;
+double circumferance;
+double area;
+int choice;
+
+printf("Enter the radius of circle :\n");
+scanf("%lf",&RADIUS);
+
+circumferance = PI* 2 * RADIUS;
+area = 2 * RADIUS *RADIUS;
+
+printf("What would you like to know,1. area or 2. circumferance?\n");
+switch(choice){
+scanf("choice",&%d");
+
+case 1: printf("%lf is the area.\n",area);
+        break;
+
+case 2: printf("%lf is the circumferance.\n, circumferance);
+        break;
+}
+
+return 0;
+}
